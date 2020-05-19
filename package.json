@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/pgroot/express-swagger-generator.git"
+    "url": "https://github.com/Jackyzm/express-swagger-generator.git"
   },
   "keywords": [
     "express",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/pgroot/express-swagger-generator/issues"
   },
-  "homepage": "https://github.com/pgroot/express-swagger-generator",
+  "homepage": "https://github.com/Jackyzm/express-swagger-generator",
   "dependencies": {
     "doctrine": "^2.0.0",
     "glob": "^7.0.3",
