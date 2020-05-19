@@ -27,11 +27,10 @@
     "recursive-iterator": "^2.0.3",
     "swagger-parser": "^5.0.5",
     "doctrine-file": "^1.0.2",
-    "express-swaggerize-ui": "^1.0.3"
+    "express": "*"
   },
   "devDependencies": {
     "body-parser": "^1.15.0",
-    "express": "^4.13.4",
     "mocha": "^3.2.0",
     "mocha-jscs": "^5.0.0",
     "mocha-jshint": "^2.3.1",
