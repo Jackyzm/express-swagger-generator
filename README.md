@@ -1,9 +1,12 @@
+### Tips
+this depository forked from pgroot/express-swagger-generator and custom something，thanks
+
 ### Express Swagger Generator
 
 #### Installation
 
 ```
-npm i express-swagger-generator --save-dev
+npm i express-swagger-generator-integral --save-dev
 ```
 
 #### Usage
@@ -11,7 +14,7 @@ npm i express-swagger-generator --save-dev
 ```
 const express = require('express');
 const app = express();
-const expressSwagger = require('express-swagger-generator')(app);
+const expressSwagger = require('express-swagger-generator-integral')(app);
 
 let options = {
     swaggerDefinition: {
@@ -41,9 +44,9 @@ let options = {
 };
 expressSwagger(options)
 app.listen(3000);
-```
 
-Open http://<app_host>:<app_port>/api-docs in your browser to view the documentation.
+Open http://localhost:3000/api-docs/ in your browser to view the documentation.
+```
 
 #### How to document the API
 
@@ -93,6 +96,7 @@ For model definitions:
  * This function comment is parsed by doctrine
  * sdfkjsldfkj
  * @route POST /users
+ * @summery description
  * @param {Point.model} point.body.required - the new point
  * @group foo - Operations about user
  * @param {string} email.query.required - username or email
@@ -109,7 +113,3 @@ For model definitions:
  * @security JWT
  */
 ```
-
-#### More
-
-This module is based on [express-swaggerize-ui](https://github.com/pgroot/express-swaggerize-ui) and [Doctrine-File](https://github.com/researchgate/doctrine-file)
